@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_PetClinic_1689866445708-pr-trigger-input-set
+  identifier: Build_PetClinic_1689866445708prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Demo_CI_CD
+  pipeline:
+    identifier: Build_PetClinic_1689866445708
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
